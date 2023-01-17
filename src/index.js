@@ -1,13 +1,36 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import NotFound from "./pages/NotFound/NotFound";
+import About from "./pages/About/About";
+import Projects from "./pages/Projects/Projects";
+import Contact from "./pages/Contact/Contact";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Main from "./pages/Main/Main";
+import { DarkModeProvider } from "./context/DarkModeContext";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <NotFound />,
+    children: [
+      { index: true, element: <Main /> },
+      { path: "/about", element: <About /> },
+      { path: "/projects", element: <Projects /> },
+      { path: "/contact", element: <Contact /> },
+    ],
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <DarkModeProvider>
+      <RouterProvider router={router} />
+    </DarkModeProvider>
   </React.StrictMode>
 );
 

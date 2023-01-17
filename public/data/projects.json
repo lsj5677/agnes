@@ -1,0 +1,48 @@
+[
+  {
+    "id": 0,
+    "title": "Survee",
+    "description": "This is my first project to grow into a Full stack developer. it is still work in progress since Jun 2022.",
+    "period": "Jun 2022 ~ Present",
+    "thumbnail": "../image/survee.png",
+    "gitAddr": "https://github.com/lsj5677/survey",
+    "siteAddr": "https://survee.link/",
+    "tags": ["React.js", "Next.js", "Nest.js", "ChakraUI", "Firebase", "AWS"]
+  },
+  {
+    "id": 2,
+    "title": "Agtube",
+    "description": "Agtube means literally Agnes + Youtube. I built this website with Youtube Open API. You can select the darkmode and see the list and detail pages, related videos, and also can search by keywords.",
+    "period": "Jan 2023 ~ Jan 2023",
+    "thumbnail": "../image/agtube.png",
+    "gitAddr": "https://github.com/lsj5677/react-youtube-api",
+    "siteAddr": "https://agtube.netlify.app/",
+    "tags": [
+      "React.js",
+      "react-router",
+      "react-query",
+      "tailwindCSS",
+      "Netlify"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Todones",
+    "description": "I built this website used by React.js You can select the darkmode and create, read, update, and also delete Todos.",
+    "period": "Dec 2022 ~ Dec 2022",
+    "thumbnail": "../image/todones.png",
+    "gitAddr": "https://github.com/lsj5677/to-do-app",
+    "siteAddr": "https://todoagnes.netlify.app/",
+    "tags": ["React.js", "postCSS", "Netlify"]
+  },
+  {
+    "id": 4,
+    "title": "Road to Frontend",
+    "description": "It means trying to be a Front-end developer.",
+    "period": "Oct 2020 ~ Oct 2020",
+    "thumbnail": "../image/roadfe.png",
+    "gitAddr": "https://github.com/lsj5677/road-to-FE-Dev",
+    "siteAddr": "https://sjroad.netlify.app/",
+    "tags": ["HTML", "SCSS", "JavaScript", "gsap", "anime.js", "Netlify"]
+  }
+]
