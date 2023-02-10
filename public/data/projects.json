@@ -3,11 +3,30 @@
     "id": 0,
     "title": "Survee",
     "description": "This is my first project to grow into a Full stack developer. it is still work in progress since Jun 2022.",
-    "period": "Jun 2022 ~ Present",
+    "period": "Jun 2022 ~ Present(suspension)",
     "thumbnail": "../image/survee.png",
     "gitAddr": "https://github.com/lsj5677/survey",
     "siteAddr": "https://survee.link/",
     "tags": ["React.js", "Next.js", "Nest.js", "ChakraUI", "Firebase", "AWS"]
+  },
+  {
+    "id": 1,
+    "title": "Agneshop",
+    "description": "Agneshop means literally Agnes + shop. I built this website with firebase, cloudinary.",
+    "period": "Jan 2023 ~ Feb 2023",
+    "thumbnail": "../image/agneshop.png",
+    "gitAddr": "https://github.com/lsj5677/Agshop",
+    "siteAddr": "https://agneshop.netlify.app/",
+    "tags": [
+      "React.js",
+      "react-router",
+      "react-query",
+      "tailwindCSS",
+      "framer motion",
+      "firebase",
+      "cloudinary",
+      "Netlify"
+    ]
   },
   {
     "id": 2,

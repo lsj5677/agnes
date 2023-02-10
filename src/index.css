@@ -1,7 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --color-digital-lavender: #e6e6fa;
   --color-luscious-red: #8a3242;
   --color-tranquil-blue: #a6cae5;
+  --color-beige: #f0e5de;
 
   --color-blue: #30a9de;
   --color-red: #e53a40;
@@ -20,7 +25,13 @@
 
 html {
   color: var(--color-black);
-  background-color: var(--color-white);
+  background: rgb(230, 230, 250);
+  background: radial-gradient(
+    circle,
+    rgba(230, 230, 250, 1) 0%,
+    rgba(240, 229, 222, 1) 100%
+  );
+  overflow-x: hidden;
 }
 
 html.dark {
@@ -28,6 +39,17 @@ html.dark {
   --color-white: #1e2022;
   --color-light-gray: #3f4040;
   --color-dark-gray: #e3dede;
+  background: rgb(63, 64, 64);
+  background: radial-gradient(
+    circle,
+    rgba(63, 64, 64, 1) 0%,
+    rgba(30, 32, 34, 1) 67%
+  );
+}
+
+html.mobile-on {
+  overflow-y: hidden;
+  touch-action: none;
 }
 
 * {
@@ -49,6 +71,14 @@ code {
     monospace;
 }
 
+.sub-layout {
+  @apply w-full max-w-screen-2xl py-4 px-8 mx-auto box-border;
+}
+
+.sub-wrap {
+  @apply py-32 sm:py-10;
+}
+
 ul {
   padding: 0;
 }
@@ -61,6 +91,11 @@ ol li {
 a {
   text-decoration: none;
   color: var(--color-black);
+}
+
+svg {
+  font-size: 1.5rem;
+  display: inline-block;
 }
 
 .bg-text {

@@ -30,7 +30,6 @@ export default function Projects() {
       .catch((error) => console.debug("Error", error))
       .finally(() => setLoading(false));
   }, []);
-
   return (
     <>
       <BgText text={"It's my projects"} />

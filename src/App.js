@@ -1,17 +1,15 @@
-import styles from "./App.module.css";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer";
 import { Outlet } from "react-router-dom";
-import Header from "./components/Header/Header";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className={styles.wrap}>
-      {/* <div className="bg"></div> */}
-      <div className={styles.container}>
-        <Header />
+    <div className="relative flex flex-col">
+      <Header />
+      <div className="flex-auto w-full min-h-screen lg:relative">
         <Outlet />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

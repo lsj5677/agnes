@@ -4,11 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import NotFound from "./pages/NotFound/NotFound";
-import About from "./pages/About/About";
-import Projects from "./pages/Projects/Projects";
-import Contact from "./pages/Contact/Contact";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Main from "./pages/Main/Main";
+import Main from "./pages/Main";
 import { DarkModeProvider } from "./context/DarkModeContext";
 
 const router = createBrowserRouter([
