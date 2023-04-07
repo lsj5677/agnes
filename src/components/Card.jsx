@@ -16,7 +16,7 @@ export default function Card({
   const [imageLoading, setImageLoading] = useState(true);
 
   return (
-    <div className="relative bg-white mb-10 mx-auto rounded-md max-w-md shadow-[1px_-3px_14px_rgba(0,0,0,0.3)] dark:shadow-[2px_-3px_14px_rgba(249,248,241,0.7)] dark:bg-black">
+    <div className="relative bg-white mb-10 mx-auto rounded-md max-w-full shadow-[1px_-3px_14px_rgba(0,0,0,0.3)] dark:shadow-[2px_-3px_14px_rgba(249,248,241,0.7)] dark:bg-black group">
       <div className="rounded-md overflow-hidden bg-lightGray min-h-[30%]">
         <motion.img
           src={thumbSrc}
@@ -27,9 +27,10 @@ export default function Card({
           }}
           transition={{ opacity: { delay: 0.1, duration: 0.4 } }}
           onLoad={() => setImageLoading(false)}
+          className="group-hover:scale-110 hover:ease-in-out duration-500"
         />
       </div>
-      <div className="p-5">
+      <div className="p-5 group-hover:-translate-y-6 hover:ease-in-out duration-500">
         <div className="flex items-center justify-center gap-4 my-5 text-black ">
           <a
             href={gitSrc}

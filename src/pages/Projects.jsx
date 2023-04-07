@@ -11,7 +11,7 @@ export default function Projects() {
       .catch((error) => console.debug("Error", error));
   }, []);
   return (
-    <div className="sub-wrap sub-layout sm:grid grid-flow-row-dense grid-cols-1 gap-5  lg:grid-cols-2 xl:grid-cols-3">
+    <div className="sub-wrap sub-layout sm:grid grid-flow-row-dense grid-cols-1 gap-5  md:grid-cols-2 xl:grid-cols-3">
       {projects.map((project) => (
         <Card
           key={project.id}
