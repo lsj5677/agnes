@@ -22,11 +22,11 @@
   {
     "id": 5,
     "title": "Survee",
-    "description": "This is my first project to grow into a Full stack developer. it is still work in progress since Jun 2022.",
-    "period": "Jun 2022 ~ Present(suspension)",
+    "description": "I used to use AWS but now there is no site. you can check code in github. This is my first project to grow into a Full stack developer. it is still work in progress since Jun 2022.",
+    "period": "Jun 2022 ~ STOP",
     "thumbnail": "../image/survee.png",
     "gitAddr": "https://github.com/lsj5677/survey",
-    "siteAddr": "https://survee.link/",
+    "siteAddr": "#",
     "tags": ["React.js", "Next.js", "Nest.js", "ChakraUI", "Firebase", "AWS"]
   },
   {
