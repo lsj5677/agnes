@@ -1,5 +1,26 @@
 [
   {
+    "id": 8,
+    "title": "Alog",
+    "description": "Used by nextjs version 13",
+    "period": "May 2023 ~ present(ing)",
+    "thumbnail": "../image/alog.png",
+    "gitAddr": "https://github.com/lsj5677/alog",
+    "siteAddr": "https://alog-indol.vercel.app/",
+    "tags": [
+      "Nextjs",
+      "Reactjs",
+      "tailwindCSS",
+      "react-icons",
+      "nodemailer",
+      "react-multi-carousel",
+      "react-markdown",
+      "react-syntax-highlighter",
+      "yup",
+      "vercel"
+    ]
+  },
+  {
     "id": 7,
     "title": "Agitter",
     "description": "Cloning twitter with React and Firebase",
@@ -7,7 +28,7 @@
     "thumbnail": "../image/agitter.png",
     "gitAddr": "https://github.com/lsj5677/agitter",
     "siteAddr": "https://agitter.netlify.app/",
-    "tags": ["React.js", "postCSS", "React router", "Firebase"]
+    "tags": ["Reactjs", "postCSS", "React router", "Firebase"]
   },
   {
     "id": 6,
@@ -17,7 +38,7 @@
     "thumbnail": "../image/kanbanboard.png",
     "gitAddr": "https://github.com/lsj5677/kanban-board",
     "siteAddr": "https://kabanes.netlify.app/",
-    "tags": ["React.js", "tailwindCSS"]
+    "tags": ["Reactjs", "tailwindCSS"]
   },
   {
     "id": 5,
@@ -27,7 +48,7 @@
     "thumbnail": "../image/survee.png",
     "gitAddr": "https://github.com/lsj5677/survey",
     "siteAddr": "https://github.com/lsj5677/survey",
-    "tags": ["React.js", "Next.js", "Nest.js", "ChakraUI", "Firebase", "AWS"]
+    "tags": ["Reactjs", "Nextjs", "Nestjs", "ChakraUI", "Firebase", "AWS"]
   },
   {
     "id": 4,
@@ -38,7 +59,7 @@
     "gitAddr": "https://github.com/lsj5677/Agshop",
     "siteAddr": "https://agneshop.netlify.app/",
     "tags": [
-      "React.js",
+      "Reactjs",
       "react-router",
       "react-query",
       "tailwindCSS",
@@ -56,23 +77,17 @@
     "thumbnail": "../image/agtube.png",
     "gitAddr": "https://github.com/lsj5677/react-youtube-api",
     "siteAddr": "https://agtube.netlify.app/",
-    "tags": [
-      "React.js",
-      "react-router",
-      "react-query",
-      "tailwindCSS",
-      "Netlify"
-    ]
+    "tags": ["Reactjs", "react-router", "react-query", "tailwindCSS", "Netlify"]
   },
   {
     "id": 2,
     "title": "Todones",
-    "description": "I built this website used by React.js You can select the darkmode and create, read, update, and also delete Todos.",
+    "description": "I built this website used by Reactjs You can select the darkmode and create, read, update, and also delete Todos.",
     "period": "Dec 2022 ~ Dec 2022",
     "thumbnail": "../image/todones.png",
     "gitAddr": "https://github.com/lsj5677/to-do-app",
     "siteAddr": "https://todoagnes.netlify.app/",
-    "tags": ["React.js", "postCSS", "Netlify"]
+    "tags": ["Reactjs", "postCSS", "Netlify"]
   },
   {
     "id": 1,
@@ -82,6 +97,6 @@
     "thumbnail": "../image/roadfe.png",
     "gitAddr": "https://github.com/lsj5677/road-to-FE-Dev",
     "siteAddr": "https://sjroad.netlify.app/",
-    "tags": ["HTML", "SCSS", "JavaScript", "gsap", "anime.js", "Netlify"]
+    "tags": ["HTML", "SCSS", "JavaScript", "gsap", "animejs", "Netlify"]
   }
 ]
