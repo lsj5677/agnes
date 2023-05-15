@@ -8,6 +8,7 @@
     "gitAddr": "https://github.com/lsj5677/alog",
     "siteAddr": "https://alog-indol.vercel.app/",
     "tags": [
+      "typescript",
       "Nextjs",
       "Reactjs",
       "tailwindCSS",
