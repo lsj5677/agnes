@@ -6,10 +6,9 @@
     "period": "Dec 2020 - May 2022",
     "location": "Seoul, South Korea",
     "desc": [
-      "Optimized and maintained the existing websites of the company.",
-      "Several projects such as e-commerce with Shopify and ReactJS",
-      "Great problem solved and debugging.",
-      "Built a design system."
+      "Optimized and maintained e-commerce beauty websites, using Shopify.",
+      "Developed the internal system for sales report generation and inventory management.",
+      "Built a brand-new component design system to suit company's unique business needs."
     ],
     "techUsed": [
       "HTML",
@@ -19,17 +18,9 @@
       "ReactJS",
       "NextJS",
       "Github",
-      "NodeJS"
+      "NodeJS",
+      "Shopify"
     ]
-  },
-  {
-    "id": 2,
-    "role": "Front End Developer",
-    "company": "Focoo",
-    "period": "May 2020 - Aug 2020",
-    "location": "Seoul, South Korea",
-    "desc": ["Built a company website to promote their products and services."],
-    "techUsed": ["HTML", "CSS", "JavaScript", "jQuery"]
   },
   {
     "id": 3,
@@ -38,8 +29,8 @@
     "period": "May 2019 - Jan 2020",
     "location": "Seoul, South Korea",
     "desc": [
-      "Built a company website as an adaptive or websites from designed to coding.",
-      "Added an email function by PHP to connect to CS email."
+      "Built a range of responsive and adaptive websites, participating in all phases of software development life cycle.",
+      "Implemented an email service to allow customers to connect with Customer Service team, using PHP."
     ],
     "techUsed": [
       "HTML",
@@ -59,10 +50,8 @@
     "period": "Nov 2016 - Apr 2018",
     "location": "Seoul, South Korea",
     "desc": [
-      "Built websites on Cafe24, e-commerce software such as Shopify.",
-      "Maintained websites under a company.",
-      "Corporated with marketing, design team to improve the quality of brands.",
-      "Built a design system."
+      "Built various online stores, extending and customizing Cafe24(Korean e-commerce platform)",
+      "Actively participated in brainstorming discussions with marketing and design teams to create effective branding strategies."
     ],
     "techUsed": [
       "HTML",
@@ -80,8 +69,8 @@
     "period": "Dec 2020 - May 2022",
     "location": "Seoul, South Korea",
     "desc": [
-      "Designed web pages as a responsive.",
-      "Communicated with clients effectively about requests."
+      "Designed various websites for clients in diverse industries such as retail, agriculture, healthcare, education and so on.",
+      "Interfaced directly with clients to clarify business requirements and provide design solutions."
     ],
     "techUsed": ["HTML", "CSS", "Adobe Photoshop"]
   }
